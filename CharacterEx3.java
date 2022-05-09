@@ -9,5 +9,9 @@ public class CharacterEx3 {
         System.out.println((char)a);
         System.out.println((char)b);
         System.out.println(a2);
+
+        int value = 10;
+        int num = value++;
+        System.out.println(value+" "+num);
     }
 }
